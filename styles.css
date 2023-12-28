@@ -5,7 +5,7 @@
 .navBar {
   display: flex;
   width: 1440px;
-  height: 75px;
+  height: 70px;
   flex-shrink: 0;
   background-color: #183d3d;
 }
@@ -17,7 +17,7 @@
   color: #fff;
   text-align: center;
   font-family: "Caudex";
-  font-size: 35px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -31,7 +31,7 @@
   color: #fff;
   text-align: center;
   font-family: "Caudex";
-  font-size: 35px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -44,8 +44,8 @@
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Caudex;
-  font-size: 35px;
+  font-family: "Caudex";
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -58,8 +58,8 @@
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Caudex;
-  font-size: 35px;
+  font-family: "Caudex";
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -72,8 +72,8 @@
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Caudex;
-  font-size: 35px;
+  font-family: "Caudex";
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -86,10 +86,121 @@
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Caudex;
-  font-size: 35px;
+  font-family: "Caudex";
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding-top: 10px;
+}
+
+.container1 {
+  display: flex;
+}
+.rect1 {
+  width: 725px;
+  height: 500px;
+  flex-shrink: 0;
+  background: #93b1a6;
+}
+
+.rect2 {
+  width: 725px;
+  height: 500px;
+  background: #5c8374;
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.line1 {
+  width: 572px;
+  height: 90px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Caudex";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.line2 {
+  width: 551px;
+  height: 100px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Caudex";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.linkedin-label {
+  font-size: 18px;
+  width: 520px;
+  height: 98px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Spline Sans Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.linkedin-link {
+  font-size: 18px;
+  width: 520px;
+  height: 98px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Spline Sans Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #183d3d;
+  text-decoration: none;
+}
+
+.github-label {
+  font-size: 18px;
+  width: 520px;
+  height: 98px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Spline Sans Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.github-link {
+  font-size: 18px;
+  width: 520px;
+  height: 98px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Spline Sans Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #183d3d;
+  text-decoration: none;
+}
+
+.linkedin-link:hover,
+.github-link:hover {
+  text-decoration: underline;
 }
